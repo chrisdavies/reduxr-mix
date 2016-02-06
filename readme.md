@@ -2,6 +2,8 @@
 
 A tiny utility used by other reduxr libraries to help with immutability.
 
+[![Build Status](https://travis-ci.org/chrisdavies/reduxr-mix.svg?branch=master)](https://travis-ci.org/chrisdavies/reduxr-mix)
+
 ## License MIT
 
 Copyright (c) 2015 Chris Davies
