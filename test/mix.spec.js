@@ -1,7 +1,7 @@
 'use strict';
 
 import deepFreeze from 'deep-freeze';
-import {mix} from '../mix';
+import mix from '../mix';
 
 describe('mix', function () {
   it('Does not mutate objects passed to it', function () {

@@ -10,11 +10,6 @@ function copy(o1, o2) {
 }
 
 // mix(o1, o2) is the same as es6 {...o1, ...o2}
-function mix(o1, o2) {
+module.exports = function mix(o1, o2) {
   return copy(copy({}, o1), o2);
-}
-
-module.exports = {
-  mix: mix,
-  copy: copy
 }
